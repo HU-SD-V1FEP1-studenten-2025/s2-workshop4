@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "vite": "^6.2.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "backend": "json-server --watch public/students.json --port 3001"
+  }
+}
